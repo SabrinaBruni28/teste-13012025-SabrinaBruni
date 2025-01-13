@@ -53,11 +53,11 @@ Portanto, desenvolva um código de web scraping que obtenha a tarifa diretamente
 6. A entrega deve ser realizada dentro do prazo estabelecido;
 7. O candidato deve fazer um fork do repositório. A entrega pode ser realizada por meio de um pull request para o repositório original (o que será considerado um diferencial) ou enviando o link do seu repositório para o e-mail lucas@dg.energy.
 
-### Informações da Programadora:
+## Informações da Programadora:
 - **Autora:** Sabrina Bruni de Souza Faria
 - **E-mail:** sabrinabruni28@gmail.com
 
-### Como executar:
+## Como executar:
 * Para executar o código:
   1. Digite no terminal da pasta o comando `make desafio1` para executar o desafio 1.
   2. Digite no terminal da pasta o comando `make desafio2` para executar o desafio 2.
