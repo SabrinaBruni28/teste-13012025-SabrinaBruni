@@ -9,6 +9,54 @@ def calculadora(consumo: list, tarifa: float, classe: str) -> tuple:
 
     # Desenvolva seu código aqui #
 
+    # Calcula a média de consumo
+    media =  sum(consumo) / len(consumo)
+
+    # Verifica qual a classe que estamos tratando e calcula o desconto e a cobertura de acordo com a média de consumo
+    if (classe == "Residencial"):
+        if (media < 10000):
+            desconto_aplicado = 0.18
+            cobertura = 0.90
+
+        elif (media > 20000):
+            desconto_aplicado = 0.25
+            cobertura = 0.99
+
+        else:
+            desconto_aplicado = 0.22
+            cobertura = 0.95
+
+    elif (classe == "Comercial"):
+        if (media < 10000):
+            desconto_aplicado = 0.16
+            cobertura = 0.90
+
+        elif (media > 20000):
+            desconto_aplicado = 0.22
+            cobertura = 0.99
+
+        else:
+            desconto_aplicado = 0.18
+            cobertura = 0.95
+
+    elif (classe == "Industrial"):
+        if (media < 10000):
+            desconto_aplicado = 0.12
+            cobertura = 0.90
+
+        elif (media > 20000):
+            desconto_aplicado = 0.18
+            cobertura = 0.99
+
+        else:
+            desconto_aplicado = 0.15
+            cobertura = 0.95
+
+    # Calcula a economia mensal aplicando os valores necessários
+    economia_mensal = media*tarifa*desconto_aplicado*cobertura
+    # Calcula a economia anual sendo 12 vezes a mensal
+    economia_anual = economia_mensal * 12
+
     return (
         round(economia_anual, 2),
         round(economia_mensal, 2),

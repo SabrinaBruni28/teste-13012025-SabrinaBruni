@@ -52,3 +52,18 @@ Portanto, desenvolva um código de web scraping que obtenha a tarifa diretamente
 5. Inclua neste mesmo README uma seção detalhada que explique claramente os passos necessários para executar o código. Certifique-se de que as instruções sejam precisas, organizadas e fáceis de entender, pois os avaliadores seguirão essa documentação;
 6. A entrega deve ser realizada dentro do prazo estabelecido;
 7. O candidato deve fazer um fork do repositório. A entrega pode ser realizada por meio de um pull request para o repositório original (o que será considerado um diferencial) ou enviando o link do seu repositório para o e-mail lucas@dg.energy.
+
+### Informações da Programadora:
+**Autora:** Sabrina Bruni de Souza Faria
+**E-mail:** sabrinabruni28@gmail.com
+
+### Como executar:
+* Para executar o código:
+  1. Digite no terminal da pasta o comando `make desafio1` para executar o desafio 1.
+  2. Digite no terminal da pasta o comando `make desafio2` para executar o desafio 2.
+
+* **Obs:** Neste caso, é necessário ter o make instalado na máquina.
+
+* Caso contrário:
+  1. Digite no terminal da pasta o comando `python3 calculadora_desafio1.py` para executar o desafio 1.
+  2. Digite no terminal da pasta o comando `python3 calculadora_desafio2.py` para executar o desafio 2.
