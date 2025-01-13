@@ -62,8 +62,12 @@ Portanto, desenvolva um código de web scraping que obtenha a tarifa diretamente
   1. Digite no terminal da pasta o comando `make desafio1` para executar o desafio 1.
   2. Digite no terminal da pasta o comando `make desafio2` para executar o desafio 2.
 
-* **Obs:** Neste caso, é necessário ter o make instalado na máquina.
+* **Obs:** 
+1. É necessário ter o make instalado na máquina.
+  * Comando para instalar o make no Linux `sudo apt install make`
+2. É necessário ter instalado a biblioteca `beautifulsoup4`
+  * Comando para instalar a biblioteca `pip install requests beautifulsoup4`
 
-* Caso contrário:
+* Outra opção de comando caso não queira instalar o make:
   1. Digite no terminal da pasta o comando `python3 calculadora_desafio1.py` para executar o desafio 1.
   2. Digite no terminal da pasta o comando `python3 calculadora_desafio2.py` para executar o desafio 2.
