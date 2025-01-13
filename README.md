@@ -54,8 +54,8 @@ Portanto, desenvolva um código de web scraping que obtenha a tarifa diretamente
 7. O candidato deve fazer um fork do repositório. A entrega pode ser realizada por meio de um pull request para o repositório original (o que será considerado um diferencial) ou enviando o link do seu repositório para o e-mail lucas@dg.energy.
 
 ### Informações da Programadora:
-**Autora:** Sabrina Bruni de Souza Faria
-**E-mail:** sabrinabruni28@gmail.com
+- **Autora:** Sabrina Bruni de Souza Faria
+- **E-mail:** sabrinabruni28@gmail.com
 
 ### Como executar:
 * Para executar o código:
